@@ -6,6 +6,14 @@
     </head>
     <body>
         <h1>Form Input</h1>
+        <label>Is it currently Raining?
+            <select name="Weather" id="weather">
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select>
+            <input type="button" id="submit" value="Submit" onclick="submitFunction()">
+        </label>
+        <div id="outputPlace"></div>
         <script src="script.js"></script>
     </body>
 </html>
